@@ -1,0 +1,15 @@
+<div class="circle-image-container">
+  <div *ngIf="!isBlank" class="hovereffect" [style.width] = "width" [style.height] = "height" [style.top] = "offsetY" [style.left] ="offsetX">
+    <img [style.width] = "width" [style.height] = "height" class="img-responsive" [src]="src" alt="">
+    <div class="overlay">
+      <h2>{{title}}</h2>
+      <p>
+        <a href="#">Details</a>
+      </p>
+    </div>
+  </div>
+  <div *ngIf="isBlank" class="hovereffect"  [style.width] = "width" [style.height] = "height" [style.top] = "offsetY" [style.left] ="offsetX" [style.background-color] = "backgroundColor">
+  </div>
+
+</div>
+

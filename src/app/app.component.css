@@ -1,0 +1,56 @@
+#test {
+  width: 100%;
+  height: 100%;
+  background-size: 140%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://images.musement.com/cover/0002/49/thumb_148242_cover_header.jpeg?w=1200&h=630&q=60&fit=crop);
+}
+
+.ui-carousel-header-title {
+  z-index: 1030;
+  font-size: 60px;
+}
+
+.maps {
+  top: 65%;
+  position: absolute;
+  left: 5%;
+}
+
+.maps-graph {
+  top: 65%;
+  position: absolute;
+  left:50%;
+
+}
+
+.title-maps {
+  top:60%;
+  position: absolute;
+  left: 5%;
+  width:40%
+}
+.info {
+  z-index: -1;
+background-color: rgba(66, 134, 244, 0.7);
+  /*background: url("https://i.kinja-img.com/gawker-media/image/upload/s--5Dg0QbVp--/c_scale,f_auto,fl_progressive,q_80,w_800/nh1vtxksjha7trsmrlap.jpg") no-repeat;*/
+  /*background-size:cover;*/
+}
+.last {
+  height: 200%;
+}
+
+#places {
+  background-image:url("../assets/Treasure.jpg");
+  background-size: cover;
+  position:absolute;
+  height: 100%;
+  width: 100%;
+
+}
+
+.center-circle {
+  transform:translate(50%, 50%)
+}
+
