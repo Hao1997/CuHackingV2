@@ -1,12 +1,12 @@
 #To run
-Go to the project folder
-Install npm if you dont have it, `npm install npm@latest -g`
-In a terminal run `npm install-g@angular/cli`
-then `ng serve --open` 
-It should open in a new browser
+Go to the project folder  
+Install npm if you dont have it, `npm install npm@latest -g`  
+In a terminal run `npm install-g@angular/cli`  
+then `ng serve --open`   
+It should open in a new browser  
 
 
-Everything is hardcoded in and I haven't coded it to be dynmaic so might not fit all screens
+Everything is hardcoded in and I haven't coded it to be dynmaic so might not fit all screens  
 
 
 
